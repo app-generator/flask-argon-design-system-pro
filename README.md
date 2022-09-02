@@ -135,6 +135,23 @@ By default, the app redirects guest users to authenticate. In order to access th
 
 <br />
 
+## Recompile SCSS
+
+> Navigate to `apps/static/assets` and execute the gulp command default task in the directory. 
+
+Compilation tests were made with:
+
+- **Node** `v16.15.0`
+- **Gulp** `v4.0.2`, CLI version `4.0.2`
+
+```bash
+$ cd apps/static/assets
+$ yarn                   # install modules
+$ gulp                   # recompile SCSS
+```
+
+<br />
+
 ## ✨ Code-base structure
 
 The project is coded using blueprints, app factory pattern, dual configuration profile (development and production) and an intuitive structure presented bellow:
